@@ -1,0 +1,7 @@
+{
+  "name": "Beaquos - BioLink",
+  "description": "",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
