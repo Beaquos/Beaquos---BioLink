@@ -26,7 +26,7 @@ export const INITIAL_DATA = {
     },
     {
       id: 'store',
-      title: "Nossa Loja Online",
+      title: "Nosso Site",
       url: "#",
       type: LinkType.SIMPLE,
       subtitle: "Confira nossos produtos"
