@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import { INITIAL_DATA } from './constants';
+import { INITIAL_DATA } from './constants.tsx';
 import { 
   WhatsAppIcon, StoreIcon, StarIcon, InvitationIcon, GlobeIcon, 
   ArrowRightIcon, ArrowUpRightIcon, InstagramIcon, EmailIcon,
   VerifiedIcon, TruckIcon, LockIcon, PackageIcon, ClockIcon
-} from './components/Icons';
+} from './components/Icons.tsx';
 
 const App: React.FC = () => {
   const [profile] = useState(INITIAL_DATA);
@@ -137,7 +137,7 @@ const App: React.FC = () => {
 
       <div className="bottom-url-bar">
         <LockIcon sizeClass="w-3 h-3" />
-        beaquos.carrd.co
+        beaquos estudio criativo
       </div>
     </div>
   );
